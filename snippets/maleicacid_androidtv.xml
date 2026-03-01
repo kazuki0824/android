@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Additional projects for VyOS + Android TV guest builds -->
+  <remote name="maleicacid" fetch="https://github.com/kazuki0824" />
+  <remote name="microg" fetch="https://github.com/microg" />
+
+  <!-- Product overlays / build glue -->
+  <project name="android_device_maleicacid_androidtv"
+           path="device/maleicacid/androidtv"
+           remote="maleicacid"
+           revision="main" />
+
+  <!-- microG (GApps-equivalent) built from repo-synced source under Soong orchestration -->
+  <project name="android_vendor_maleicacid_microg"
+           path="vendor/maleicacid/microg"
+           remote="maleicacid"
+           revision="main" />
+
+  <!-- Upstream sources fetched by repo (requirement 10*) -->
+  <project name="GmsCore"
+           path="vendor/maleicacid/microg/upstream/GmsCore"
+           remote="microg"
+           revision="master" />
+
+  <project name="android_device_maleicacid_androidtv_tools"
+           path="device/maleicacid/androidtv-tools"
+           remote="maleicacid"
+           revision="main" />
+</manifest>
