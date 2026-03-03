@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <include name="snippets/maleicacid_androidtv.xml" />
 
   <remote  name="github"
            fetch=".."
@@ -1337,6 +1338,4 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
-  
-  <include name="snippets/maleicacid_androidtv.xml" />
 </manifest>
