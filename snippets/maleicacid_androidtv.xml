@@ -26,4 +26,21 @@
            path="device/maleicacid/androidtv-tools"
            remote="maleicacid"
            revision="main" />
+  <!-- virtio targets required by virtio_x86_64_tv base -->
+  <project name="LineageOS/android_device_virt_virtio-common"
+           path="device/virt/virtio-common"
+           remote="github"
+           revision="refs/heads/lineage-21.0" />
+  <project name="LineageOS/android_device_virt_virtio_x86_64"
+           path="device/virt/virtio_x86_64"
+           remote="github"
+           revision="refs/heads/lineage-21.0" />
+  <project name="LineageOS/android_device_virt_virtio_x86_64_tv"
+           path="device/virt/virtio_x86_64_tv"
+           remote="github"
+           revision="refs/heads/lineage-21.0" />
+  <project name="LineageOS/android_kernel_virt_virtio"
+           path="kernel/virt/virtio"
+           remote="github"
+           revision="refs/heads/lineage-21.0" />
 </manifest>
