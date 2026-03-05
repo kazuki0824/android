@@ -22,10 +22,6 @@
            remote="microg"
            revision="master" />
 
-  <project name="android_device_maleicacid_androidtv_tools"
-           path="device/maleicacid/androidtv-tools"
-           remote="maleicacid"
-           revision="main" />
   <!-- virtio targets required by virtio_x86_64_tv base -->
   <project name="LineageOS/android_device_virt_virtio-common"
            path="device/virt/virtio-common"
