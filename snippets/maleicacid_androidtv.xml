@@ -3,7 +3,7 @@
   <!-- Additional projects for VyOS + Android TV guest builds -->
   <remote name="maleicacid" fetch="https://github.com/kazuki0824" />
   <remote name="microg" fetch="https://github.com/microg" />
-  <remote name="uboot" fetch="https://android.googlesource.com/platform/external/u-boot" />
+  <remote name="uboot" fetch="https://android.googlesource.com" />
 
   <!-- Product overlays / build glue -->
   <project name="android_device_maleicacid_androidtv"
