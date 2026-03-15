@@ -45,9 +45,16 @@
            path="device/virt/virt-common"
            remote="github"
            revision="refs/heads/lineage-21" />
+  
   <!-- bootmgr prebuilts required for virt-common GRUB build -->
   <project name="LineageOS/android_prebuilts_bootmgr"
            path="prebuilts/bootmgr"
            remote="github"
            revision="refs/heads/lineage-21" />
+  <project name="platform/external/u-boot"
+           path="external/u-boot"
+           revision="main" />
+  <project name="platform/external/dtc"
+           path="external/dtc"
+           revision="main" />
 </manifest>
