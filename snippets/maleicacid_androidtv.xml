@@ -54,7 +54,4 @@
   <project name="platform/external/u-boot"
            path="external/u-boot"
            revision="main" />
-  <project name="platform/external/dtc"
-           path="external/dtc"
-           revision="main" />
 </manifest>
